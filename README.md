@@ -1,31 +1,66 @@
-MinionLab tool using nodejs (noproxy and proxy)
+# ᝰ.ᐟ Minionlab Tools
 
-Register: https://airdropsverse.com/reff/6UZxcR
+Was developed by AirdropsVerse (https://t.me/airdropsversecom)
 
-✔️ Auto ref
-✔️ Auto connect sol wallet
-✔️ Auto mining
-✔️ Multi-account, proxy support
+Link: [Register Minionlab](https://airdropsverse.com/reff/6UZxcR)
 
-===========
+## 🚨 Attention Before Running Minionlab Tools
 
-🖥 Instructions: After downloading and unzipping, open terminal
+I am not `responsible` for the possibility of an account being `banned`!
 
-1️⃣ npm install to install the necessary modules.
+## 📎 Minionlab Tools Features
 
-2️⃣ Input setup:
+- Auto reff
+- Auto connect sol wallet
+- Auto mining
+- Support proxy or not
+- Mutiple threads, multiple accounts
 
-accounts.txt save acc for mining. Each line 1 account format: email:pass
+## ✎ᝰ. RUNNING
 
-privateKeys_sol.txt saves private key sol to connect wallet. If you don't have the tool, create your own wallet and connect, then save it to the result.txt file.
+- Clone Repository
 
-proxy.txt stores proxy, format: http://username:password@ip:port
+```bash
+git clone https://github.com/mobplay-script/minionlab-tool.git
+cd minionlab-tool
+```
 
-3️⃣ Command:
-- Auto ref: npm run ref
-- Auto connect: npm run connect
-- Auto mining: npm run mining
+- Install Dependency
 
-=================
+```bash
+npm install
+```
+
+- Setup input value
+
+* proxy: http://user:pass@ip:port
+
+```bash
+nano proxy.txt
+```
+
+- privatekey saves private key sol to connect wallet. If you don't have the tool, create your own wallet and connect, then save it to the result.txt file.
+
+```bash
+nano privateKeys_sol.txt
+```
+
+- Run the mining
+
+```bash
+npm run mining
+```
+
+- Run the auto reff
+
+```bash
+npm run reff
+```
+
+- Run the auto connect wallet
+
+```bash
+npm run connect
+```
 
 *Note: Successful referral wallets will also be saved to accounts.txt
